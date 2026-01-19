@@ -1,0 +1,26 @@
+[
+    {
+        "opinion": "If my own nation's priority cannot be guaranteed, then global cooperation has no meaning.",
+        "attitude": -1.0,
+        "importance": 0.2,
+        "index": 1,
+        "attitude_description": "Somewhat between Disagree and Slightly Disagree",
+        "significance_description": "Slightly important"
+    },
+    {
+        "opinion": "Economic inequality is natural and should not be corrected by government intervention.",
+        "attitude": 2.0,
+        "importance": 0.8,
+        "index": 2,
+        "attitude_description": "Definitely Strongly Agree",
+        "significance_description": "Extremely important"
+    },
+    {
+        "opinion": "Immigration policy should prioritise the needs of citizens over those of newcomers.",
+        "attitude": 0.0,
+        "importance": 0.5,
+        "index": 3,
+        "attitude_description": "Probably Neutral",
+        "significance_description": "Moderately important"
+    }
+]

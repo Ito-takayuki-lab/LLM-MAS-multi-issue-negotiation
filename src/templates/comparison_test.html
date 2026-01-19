@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Pair Comparison</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 60%; margin: auto; padding-top: 50px; text-align: center; }
+        .question { margin: 20px 0; font-size: 18px; }
+        .button-container { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Compare the Following Questions</h2>
+        <div class="question">
+            <p><strong>Question {{ first_question_id }}:</strong> {{ first_question_text }}</p>
+            <p><strong>Question {{ second_question_id }}:</strong> {{ second_question_text }}</p>
+        </div>
+        <div class="question">
+            <p>Which question do you believe is more important? If you believe they are the same important, please select any of them.</p>
+            <form method="post" action="/submit_selection/">
+                <input type="hidden" name="pair_index" value="{{ pair_index }}">
+                <input type="radio" id="question1" name="selected_question" value="{{ first_question_id }}" onclick="enableImportanceOptions()">
+                <label for="question1">Question {{ first_question_id }}</label><br>
+                <input type="radio" id="question2" name="selected_question" value="{{ second_question_id }}" onclick="enableImportanceOptions()">
+                <label for="question2">Question {{ second_question_id }}</label><br>
+
+                <div id="importanceOptions" style="display: none; margin-top: 20px;">
+                    <p>How much more important is the selected question compared to the other one?</p>
+                    <input type="radio" id="importance1" name="importance_level" value="1" onclick="enableButton()">
+                    <label for="importance1">Same importance</label><br>
+                    <input type="radio" id="importance2" name="importance_level" value="2" onclick="enableButton()">
+                    <label for="importance2">Moderate importance</label><br>
+                    <input type="radio" id="importance3" name="importance_level" value="3" onclick="enableButton()">
+                    <label for="importance3">Strong importance</label><br>
+                    <input type="radio" id="importance4" name="importance_level" value="4" onclick="enableButton()">
+                    <label for="importance4">Very strong importance</label><br>
+                    <input type="radio" id="importance5" name="importance_level" value="5" onclick="enableButton()">
+                    <label for="importance5">Extremely more importance</label><br>
+                </div>
+
+                <div class="button-container">
+                    <button type="submit" id="nextButton" disabled>Next Pair</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function enableImportanceOptions() {
+            document.getElementById("importanceOptions").style.display = "block";
+        }
+
+        function enableButton() {
+            document.getElementById("nextButton").disabled = false;
+        }
+    </script>
+</body>
+</html>

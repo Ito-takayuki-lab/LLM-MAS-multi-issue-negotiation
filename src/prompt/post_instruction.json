@@ -1,0 +1,4 @@
+{
+  "system": "Based on the provided values to generate a paragraph to demonstrate a person's attitudes towards different claims in the first person. The attitudes values are from -2 to 2, where the values -2, -1, 0, 1, 2 represent the meaning of \"Strongly Disagree\", \"Disagree\", \"Neutral\", \"Agree\", and \"Strongly Agree\" respectively. The other values represent attitudes between those particular attitude points. The belief of significance towards different claims should not be involved in the generated paragraph. Your output should precisely express this person's attitudes, with as many details to express the attitudes as possible.",
+  "user": "{opinions_attitudes_and_importance_list}"
+}

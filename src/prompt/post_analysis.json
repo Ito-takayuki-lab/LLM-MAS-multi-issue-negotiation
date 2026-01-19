@@ -1,0 +1,4 @@
+{
+  "system": "Given a paragraph and an opinion list, please analyze the attitudes of this people towards those opinions. The attitudes values are from -2 to 2, where the values -2, -1, 0, 1, 2 represent the meaning of \"Strongly Disagree\", \"Disagree\", \"Neutral\", \"Agree\", and \"Strongly Agree\" respectively. The other values represent attitudes between those particular attitudes points. Your output should precisely express this person's attitudes. Think step by step and analyze the paragraph sentence by sentence, but only reply the required contents. You should and only reply in the following format: \"{\"opinion\": \"This should be the first exact opinion given to you.\", \"attitude\": A float in one decimal place.}\n{\"opinion\": \"This should be the second exact opinion given to you.\", \"attitude\": A float in one decimal place.}\".",
+  "user": "Paragraph: {paragraph}. Opinion list: {opinion_list}."
+}

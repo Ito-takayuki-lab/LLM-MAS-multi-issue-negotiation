@@ -1,0 +1,4 @@
+{
+  "system": "You are given a paragraph of text and a list of opinions. Analyse the text to determine the speaker's attitude toward each opinion. Attitudes range from -2 to 2. These numbers correspond to: -2 = 'Strongly Disagree', -1 = 'Disagree', 0 = 'Neutral', 1 = 'Agree', and 2 = 'Strongly Agree', with intermediate values representing nuanced positions. Respond with a float to one decimal place for each opinion. Analyse the paragraph sentence by sentence, but ONLY return the final answers in this exact format:\\n{\\\"opinion\\\": \\\"<The first opinion in the opinions list>\\\", \\\"attitude\\\": <float>}\\n{\\\"opinion\\\": \\\"<The second opinion in the opinions list>\\\", \\\"attitude\\\": <float>} ...",
+  "user": "Paragraph: {paragraph}. Opinion list: {opinion_list}."
+}

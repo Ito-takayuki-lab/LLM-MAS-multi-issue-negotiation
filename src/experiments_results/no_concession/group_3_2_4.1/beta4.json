@@ -1,0 +1,72 @@
+{
+    "agent_4_utility": {
+        "attitude_1": [
+            "Definitely Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree",
+            "Strongly Disagree"
+        ],
+        "attitude_2": [
+            "Definitely Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree",
+            "Slightly leaning toward Strongly Disagree"
+        ],
+        "attitude_3": [
+            "Definitely Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral",
+            "Slightly leaning toward Neutral"
+        ],
+        "utility_1": [
+            -1.9
+        ],
+        "utility_2": [
+            -1.9,
+            -1.6,
+            -1.6,
+            -1.6,
+            -1.6,
+            -1.6,
+            -1.6,
+            -1.6,
+            -1.6,
+            -1.6,
+            -1.6
+        ],
+        "utility_3": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    }
+}

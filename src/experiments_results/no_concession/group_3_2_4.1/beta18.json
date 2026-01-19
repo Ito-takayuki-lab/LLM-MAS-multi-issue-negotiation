@@ -1,0 +1,80 @@
+{
+    "agent_4_utility": {
+        "attitude_1": [
+            "Definitely Strongly Disagree",
+            "Disagree",
+            "Somewhat between Disagree and Neutral",
+            "Slightly leaning toward Agree",
+            "Probably Strongly Agree",
+            "Probably Strongly Agree",
+            "Definitely Strongly Agree",
+            "Definitely Strongly Agree",
+            "Definitely Strongly Agree",
+            "Definitely Strongly Agree",
+            "Definitely Strongly Agree"
+        ],
+        "attitude_2": [
+            "Definitely Strongly Disagree",
+            "Somewhat between Neutral and Slightly Disagree",
+            "Somewhat between Neutral and Slightly Agree",
+            "Somewhat between Slightly Agree and Agree",
+            "Somewhat between Agree and Strongly Agree",
+            "Somewhat between Agree and Strongly Agree",
+            "Somewhat between Agree and Neutral",
+            "Somewhat between Agree and Neutral",
+            "Somewhat between Agree and Neutral",
+            "Somewhat between Agree and Neutral",
+            "Somewhat between Agree and Neutral"
+        ],
+        "attitude_3": [
+            "Definitely Neutral",
+            "Slightly leaning toward Slightly Disagree",
+            "Neutral",
+            "Slightly leaning toward Disagree",
+            "Slightly leaning toward Disagree",
+            "Slightly leaning toward Disagree",
+            "Slightly leaning toward Neutral",
+            "Somewhat between Neutral and Slightly Agree",
+            "Somewhat between Slightly Agree and Neutral",
+            "Somewhat between Slightly Agree and Neutral",
+            "Somewhat between Slightly Agree and Neutral"
+        ],
+        "utility_1": [
+            -1.9,
+            -0.6,
+            0.8,
+            1.8,
+            1.8,
+            1.9,
+            1.9,
+            1.9,
+            1.9,
+            1.9
+        ],
+        "utility_2": [
+            -1.9,
+            -0.3,
+            0.3,
+            0.9,
+            1.6,
+            1.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6,
+            0.6
+        ],
+        "utility_3": [
+            0.0,
+            -0.2,
+            -0.8,
+            -0.8,
+            -0.8,
+            0.0,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+        ]
+    }
+}
